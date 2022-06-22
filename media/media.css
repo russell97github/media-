@@ -1,0 +1,66 @@
+
+@media (min-width: 320px) {
+    body {
+      background-color: blue;
+    }
+    p{
+        font-size: 25px;
+        text-align: left;
+        color: aqua;
+    }
+   }
+
+   @media (min-width: 768px) {
+     body {
+       background-color: green;
+     }
+     p{
+        font-size: 30px;
+        text-align: right;
+        color: red;
+     }
+   }
+
+   @media (min-width: 1024px) {
+     body {
+       background-color: yellow;
+     }
+     p{
+        font-size: 40px;
+        text-align: center;
+        color: black;
+     }
+   }
+   
+   
+   @media (min-width: 1224px) {
+     body {
+       background-color: orange;
+     }
+     p{
+        font-size: 35px;
+        color: blue;
+     }
+   }
+   
+ 
+   @media (min-width: 1824px) {
+     body {
+       background-color: aqua;
+     }
+     p{
+        color: black;
+        font-size: 45px;
+     }
+   }
+   
+
+   @media (min-width: 850px) and (max-width: 950px) {
+     body {
+       background-color: purple;
+     }
+     p{
+        color: aliceblue;
+        font-size: 40px;
+     }
+   }
